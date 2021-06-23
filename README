@@ -1,0 +1,7 @@
+rle -- very simple lossless compression utility (based on run-length encoding)
+
+usage: rle -cx <filename> [-o <output file name>]
+"rle -h" to see this message
+   -c to compress (requires filename as argument)
+   -x to extract compressed file (requires filename as argument)
+   -o to specify an output file (optional)
