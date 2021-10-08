@@ -68,6 +68,8 @@ void rle_compress(char *read_filename, char *write_filename) {
     fclose(read_file);
 }
 
+
+// This function is for uncompressing compressed data
 void rle_uncompress(char *read_filename, char *write_filename) {
     FILE *read_file = fopen(read_filename, "r");
     if (read_file == NULL) {
